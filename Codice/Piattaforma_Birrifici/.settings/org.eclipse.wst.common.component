@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                                
+    
+    
+    
+    
+    
+    
+    <wb-module deploy-name="Piattaforma_Birrifici-0.0.1-SNAPSHOT">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/Control"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/Model"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/View"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF/Css"/>
+                                                                
+        
+        
+        
+        
+        
+        
+        <property name="java-output-path" value="/Piattaforma_Birrifici/build/classes"/>
+                                                        
+        
+        
+        
+        
+        
+        <property name="context-root" value="Piattaforma_Birrifici"/>
+                                                            
+    
+    
+    
+    
+    
+    
+    </wb-module>
+                            
+
+
+
+
+
+
+</project-modules>

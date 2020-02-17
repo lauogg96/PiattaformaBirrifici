@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+body {
+        background-image: url("../Foto/legno.jpg");
+    }
+    .logo {
+        width: 30%;
+        margin-left: 35%;
+    }
