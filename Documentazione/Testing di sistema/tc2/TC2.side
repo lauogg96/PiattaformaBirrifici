@@ -1,0 +1,2815 @@
+{
+  "id": "9f543e8d-38f8-40bd-9a3f-608ed17ee8fc",
+  "version": "2.0",
+  "name": "Pb",
+  "url": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+  "tests": [{
+    "id": "8fc89f78-dd04-45ff-b929-c351d46c4e57",
+    "name": "TC2_1",
+    "commands": [{
+      "id": "14d6ad54-2931-45c5-81a3-ab83ce4d8281",
+      "comment": "",
+      "command": "open",
+      "target": "/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aa99c58-d937-4d0c-bdc7-3c9b07f5d408",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b90090e1-2a31-4378-8129-b7f94610588d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c742a1b-8bc5-48f5-acfd-6f3f53782725",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14bd1d55-4ec5-4ec1-aa29-f334aa62faf5",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "09cb15d3-a3e4-4f61-b036-4d108af15af6",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41c40743-d145-4065-ac26-7804d6e9a621",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bi"
+    }, {
+      "id": "687e737b-34ab-43b1-90fc-d634c2e152ed",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "ff6e35cf-cfa7-49b7-90d9-b8418705cdca",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "9f4dbd02-93e9-4870-9c4a-eccf84e160a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d99321f4-345e-477d-80a5-95602b115090",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "4d162d9a-bb2f-4cc2-a69d-4da67b846904",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0e0a486-86df-46a5-a00e-c3b2b640c8c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del centenar"
+    }, {
+      "id": "97fff219-fed7-4e34-853d-ae0be91c4266",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "8e06c27c-5e6b-4daf-88b5-d201ca8faa67",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9a6bd019-bd72-469d-a950-af45de3f4684",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "ab29182b-1581-4314-945c-1a6a42583440",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea463611-77b0-49e7-a501-e200354bfbc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "51c16869-9102-42fe-87b8-426adb02a3a1",
+    "name": "TC2_3",
+    "commands": [{
+      "id": "404d1113-7113-49fa-8b6d-63d819fb7e2d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69fe277d-a316-4e8c-92e9-d77931e6a7fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4fa106f-daca-4a6b-9225-26494f4618f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a23739-4490-4ecf-81d2-89f283ca3e1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70af8fa4-d367-416a-a8a8-e10c2087c84a",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0a1625-c67e-4328-8bf6-0a6fd1097a8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03254896258695"
+    }, {
+      "id": "1ba8f9c0-d1f5-4777-9430-f07fe4cbe155",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f515050-1e08-4182-ae77-2c015704a16c",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "c791d796-d17d-451f-8af2-d83c2ef01dde",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da171c20-cb5f-4154-9fa4-b47c4ae4af84",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "87b8ad6d-32df-4d6b-81dc-3a1b49a963dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f197a8db-b629-49be-ba56-4ad0f215207b",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "77161df7-2c07-4cec-845f-430fcc665860",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb3e405-e5ad-4c25-b4b6-b64a395267e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "a98db0bc-34a9-4aee-bb38-055c7857c48b",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "388b9ba8-f93d-4997-8bb4-9b62a56b9abe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "307ee11c-e2cc-49cb-b64a-3f66fa4cad28",
+    "name": "TC2_4",
+    "commands": [{
+      "id": "f1356daa-904d-4ef4-87da-42b192a9f18d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57824b13-a981-4653-ab40-bbb44df37094",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72948adf-87ab-46aa-9b3a-9efa63184aa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ee8ee9-73fe-4ba7-be6a-c0e65c3e3378",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "578effa1-01b1-4e9a-a7bc-08c8a1e8f6b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ab214583694"
+    }, {
+      "id": "3c216bdd-9a62-4a9a-8712-2fe967b0368d",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca5609a-ad82-4f30-87c2-2beb67fb1eef",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "39ab6a8a-6387-492a-9e67-a6dbe65b20b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "977eccfd-6ca2-4907-9247-ff9b5aa48903",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "98427e42-16b8-44b6-b574-d9f72f4907f8",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72ae9ad-2879-4381-a819-27170719e3a8",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "1011e4d5-32b4-460e-900e-2d95a27a83f3",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32b93a84-6baa-4612-8b16-941370902fe0",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via"
+    }, {
+      "id": "5b211ff7-155d-4a4d-b888-a05bd88301a4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "11a97ff8-c3b4-48f8-a8d0-58cdaf9b3ea0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9e1896fd-9307-4ae9-b102-46fb7dea7e0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "5f884d80-8753-4fce-977d-6d4914a97e1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ecb0519-5834-4b4a-b777-d03a3ceb3216",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "21df6a54-822d-4028-9e28-6f03dca8d864",
+    "name": "TC2_5",
+    "commands": [{
+      "id": "566ee47b-56db-44e3-884c-93da5d147bb1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20837009-b993-4060-8927-542b303e038d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d68048c-fe74-4bad-aa43-04c22df6cbab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dadaf2b-648b-4dec-90f8-a4b45bd3fcba",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07d88f6a-711f-4906-87bb-6393b7c22740",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "71365dbd-cca8-47c8-931a-1c4155a69fa0",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa6e88c3-c4eb-4477-a63f-08069f18c5d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "8c9c2c28-e154-4f5c-8282-42e75960711a",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27632706-a16e-4f6d-a6ed-d252019f6290",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "204d954d-81ed-462b-86b6-3ec414377353",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[@id='field']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e65d182-02c1-41a8-bab3-2d4032a56a85",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91a0c2d-9fa5-49c9-9f9d-50497b0c399b",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "6ee8eda5-6518-426a-8a6e-dddefab767c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c7fccf-8299-4567-8494-0e4740c42927",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "b21653c7-ed2c-4f62-9208-35f2438e1a8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e1b5c5-a304-4d34-b5bb-6307f218cc09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5e73604b-790d-4526-a20a-adaaa4bbaf64",
+    "name": "TC2_6",
+    "commands": [{
+      "id": "fe0fd485-0791-4862-9780-3bff0ba8954c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69444f09-df1c-448d-b910-5b295c99b0f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb26e596-25e3-4dea-b38e-17e9ca937bee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a674b081-aaf0-48b7-bee2-b174948b26f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d748dc29-12f7-464c-b2ed-a9a10e29f0ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "29cdc5a8-8bd6-4e4d-9773-63c5d3bdd016",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62f9147d-6fba-46a7-b7b0-e211a23cf91b",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "5367bc73-78e9-410a-8b89-bbd058a012f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f2fdd7-6e83-4d2b-b642-97c58dd78682",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "074a7428-d0c4-4b69-a821-0d3d76ff8df3",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4740f09-4ca4-43fc-a429-30774231f720",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "6d072ac1-e040-49d0-8b47-fc06cb97f921",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f620c9bd-e5a7-4bd5-90e0-5aea8b0b97e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba1a6467-9f5e-4908-8478-f939217f1d8c",
+    "name": "TC2_7",
+    "commands": [{
+      "id": "a342080d-02b2-445f-8de2-ebcb366f5fc1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3aa7dee-d06b-49f8-880c-16de76eb603f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33e79afd-0ec4-400e-a559-3e719cfd4dd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "609c9294-dd9e-4277-b1e1-d62e0b114ad5",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21f93d16-f2a0-4a67-90e3-a4342449200f",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "B_igS_ansu+"
+    }, {
+      "id": "ff35e4b1-9a2e-46c6-8843-c6ff191e40a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00325bc0-6110-4d77-95db-f3c14d5a63b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "b68db93d-501c-42da-8588-3cbda9239657",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d87b49-b12f-44f4-bc53-d23966b5639a",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "8e7312dd-1b19-4551-8c9a-8a68799dd5a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a1a5ee-a858-49ce-8f79-1c6a30bebc20",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "007af15f-0fe4-4553-9aec-2daf95bfedba",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73fa0a67-e80d-44ca-9d49-4fdce61b7b53",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "f0630e2c-ff99-49de-83f8-6b57da6964c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a536eda6-532d-45fa-b44a-cf80a8fa7829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a642a83e-e7fe-47d9-842f-73ee796b9a4f",
+    "name": "TC2_8",
+    "commands": [{
+      "id": "a73f265f-85d7-4d39-a5af-cf3d39264154",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cf7c5fc-b1aa-4931-8262-f03a88e99c1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae05bc5d-c1c0-44a4-a76f-a257bffd49f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db89b13-97d9-463d-8c15-e6a254056479",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b21ef509-2d85-4b12-9912-6f790f35d678",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac37caa-dcef-41b1-a7b3-4d5b0cfee117",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62c9146-576e-481c-9e21-e079b80e5314",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "a2bbbe1a-39c0-45f6-86c9-c0ecb5afdf95",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ba6f04-8b8d-435f-85f1-afb29343a3ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "36dc4c07-ae34-4409-a2b1-2e7f95731592",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec2aae1e-dbfd-4e8a-af7c-6cd4c7dde79d",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8239a3e6-d7fe-4564-b43b-f8a297be7968",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "e32afa99-0e0e-4fb6-a3a9-0cf531dd5684",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "282ceb90-a788-4a03-9e2c-7aff8f631309",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "18556777-264d-4d68-9e12-d6f4946ad519",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f88b7b6-bb19-4aa5-9016-7e269f11d52c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "57ab966e-769a-4fb6-849d-cd520ea36bd9",
+    "name": "TC2_9",
+    "commands": [{
+      "id": "03a28170-b04e-4508-9040-28028db99ebc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf3425ee-eb3a-451a-8d2a-b8f64694f70b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e088fa2-9fe4-4706-a93c-7bee7d7f5a56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0fccec-5c8c-406f-9cfb-70d99d46e8fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33be9a3b-6869-4cc7-910c-8c15fb2ffa96",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansugmail.it"
+    }, {
+      "id": "a04d65ec-b115-4127-9051-98f228a26df4",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6009b5ab-239c-4593-967b-a080442ea46b",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "23081ca0-fc90-4d80-9fb6-bfd28728bde4",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aaa2059-8e8d-43da-b3de-8ea06b885306",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "39f56a73-bbc7-43ff-b7e0-102805404e95",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce19d6a3-767b-4192-81a4-c09f86551a99",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "75a3a8dc-2e71-4ad9-ad06-bfac35699bb8",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ceeb0f9-43e9-4580-899d-23f520f434ff",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "c731feb1-d1e8-4cf4-88a5-f8b8db0a0a4a",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b608d80-416c-4f22-a247-32b5588d1d2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c3c4da0-f69a-4844-bd00-35aa73c88ef5",
+    "name": "TC2_10",
+    "commands": [{
+      "id": "2a353557-3461-42fd-b0ae-d92a7241117c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1866ebc-646e-4030-8a21-63f9e562a3c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5da6d74-0912-42e6-af84-f9a1a72719fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "523325b5-649c-41f1-9a9c-835649ba7dfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "902cefe4-e0e0-4018-b24a-2a9b849e8ecc",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "0ee59f05-b82d-4f73-9b40-6a7528663578",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddea6ebf-7eb1-417c-b4cc-e5080ab6c4aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "ee4022d6-eb4d-4a0f-975e-a4a4a6bdca8f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5158b50-7d05-4290-a6e8-2b44826d48e0",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bi"
+    }, {
+      "id": "12df507a-dcc2-4b12-998b-e777a3a4e534",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "e9bb4375-d789-4523-bcfb-d8850709b6c3",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "ac381ee0-79e4-4af0-99a7-5ef19227eec2",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3832c59-5ed8-427d-93f8-03e8f63f5d57",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "46d75082-026f-4972-b2b7-5472fb5e5ea3",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94818896-4f73-48db-9db9-bca90ace0e91",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e598677d-44da-47a7-a5ea-841b9a6df270",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af83ff83-ca2a-4dbc-8554-408bff6209b5",
+    "name": "TC2_11",
+    "commands": [{
+      "id": "dbb2a858-afcb-4031-be21-d20bbf4c5522",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1b93d77-d208-4bb3-921f-c6ed1de64c3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2e2d26-d53e-4bcd-b3bb-23b21c6a4109",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "999b5fb1-2867-426f-b633-2c43818c5ee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[@id='field']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8371e96-944d-49c2-bda6-51592387273b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[@id='field']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ced9b10-c13c-444d-96d3-c91b1268f87c",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00843aec-8d5a-402d-b004-32b53105d780",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "e17d9ab9-c0f0-40c2-b269-48f355fa729f",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb7c567-a936-431a-b5db-bd37867c3933",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "7fe7f7bb-5d9d-46cd-a400-fcae304eabc9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2307c3-218d-4601-8c79-1571ba9e039c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "01addadc-6eda-461b-b268-07f6a0f564a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a11b14-1cb6-4536-a358-de175f439b9e",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "178a9192-e99f-4ae1-8ebe-d8e32b4efa48",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e578e74-1d0b-49ec-8c40-862f63728e4f",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del centenario via del centenario via del centenario, 2"
+    }, {
+      "id": "ee0ee14f-612b-4188-897e-d43758b6b31e",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85fa593c-76bb-4e66-818c-197ec1e7509e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5cc7d947-7830-44be-a640-7e4b6a0846fc",
+    "name": "TC2_12",
+    "commands": [{
+      "id": "59c15639-9c6f-4b46-b340-50e357e2a86d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "471ee2fd-55c0-4918-8174-f258bd652fab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524ad0c2-6c88-4ebb-9cbf-db12639f05ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7efb003-0cd2-45a0-9db0-95e0f80080eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc3033cc-7fac-464a-a261-6a9713132337",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "3fc85078-5edd-445d-95fe-e2953ca0b86b",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b76d16e-f192-46c6-94a2-af62feed90aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "77a04ecf-1758-4cce-9082-ed9db0e74786",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df57e17d-629c-4f58-895d-f3d9b736dda3",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "cbc1cc19-fe8f-4d90-92b6-9b145139ed06",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "566b3201-8291-47b0-9d2d-18cb6cb7a031",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "7c97fedc-d02d-4558-a099-8cc296776c68",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f3aa5b7-2b4c-4d65-89f3-20dba824c68e",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario_. 54,"
+    }, {
+      "id": "028353cc-af03-455b-ae30-eb7fbed623aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "228a783d-0440-457b-9bbc-edc553e8ba55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "859a776c-a38e-4f0a-a312-b903c22c8bbb",
+    "name": "TC2_14",
+    "commands": [{
+      "id": "ffea7a92-700e-4aa5-9be1-69fac82c1587",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cea35e46-cf27-4770-98bf-95f49c4d4b2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e040035-0d47-4957-848c-2a7c412a5469",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bc77ee-5747-4125-be19-df6784eb8110",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[@id='field']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40164219-db70-4bcb-b973-bdab2c259544",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc401b5-72a1-4be7-a0fc-c03c413146cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "773c0e6d-b2b6-478f-83d6-3081ac13c5cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8d9398f-3ab0-4e12-9c83-11eb310f199e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "2e8b3fc3-188f-4cda-9dbe-fd2910eacf65",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6e1b29-6740-4b0a-ad41-4b33bea45b43",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "e39737f1-4c82-4dc5-9edf-315581eb7991",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbef0c48-6a74-436a-837e-9bd872f4d460",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "493ccb23-d0a8-47c5-9596-09b1e0fb3b96",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43df7a1c-8048-4051-acf5-d78a11efdbd0",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25030e6f-5a39-4010-b33f-f71c9f108378",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12_54.:36"
+    }, {
+      "id": "f27e2dab-3dd4-40d2-b4ea-e9d47b08ff8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30d2cf30-9427-4f76-a9d6-f9f1c5e7ec6a",
+    "name": "TC2_15",
+    "commands": [{
+      "id": "ee23bf38-04c3-4ea3-9b6f-c345d5346f74",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "449f0c46-7263-4c5e-ae92-8decaa12821b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c59430c-28c9-4353-abeb-7bab7bcdadf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c148e9a1-8dcd-4f57-8244-7290fc5c83aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62495dda-7633-446f-b219-03e1fe4b465c",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "6a3e0bb5-aea4-4cc2-9722-a013965e26c4",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c86d32ad-b146-4a3c-b90e-77ae432f9d70",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "050d9982-2285-484b-946e-1fcbcb07b6c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e478dd30-ace0-495d-a31f-3e956a580185",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "b1ff495d-1392-4be8-a133-76090b0754ad",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4a2ff0-8306-4d47-a838-3c2642c4479a",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "b1d0cede-e03e-4662-86e3-c897b9121e78",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7a7de55-0a32-4379-89f0-777de941b155",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "2292b117-a040-4d36-99b5-e82501d1ef98",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ef0e0a-cb57-4e9e-8361-c0c77f47d342",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eec5c493-20b9-4b42-836d-b1bd49052d77",
+    "name": "TC2_2",
+    "commands": [{
+      "id": "1c761254-1fcf-4311-bc2d-da45c9f8234c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6103a9-58be-49b3-9f43-d58ed9a080c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f127ecb-b419-4fd6-b153-bfc578999d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def0ee53-1682-493a-a332-ad56db17483c",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7879e12a-7452-41d7-b538-db1fec4abcb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eef9e9b5-08d2-443b-b5a8-9d285e5a5103",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "127d44ce-6166-40e7-b03a-3d5650f11f74",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "032548962"
+    }, {
+      "id": "618837ad-6e9e-4d49-9b72-db19ac2e9826",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "364d907b-56b7-492f-b807-6a4a31dfecf3",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "b7c6bf81-2563-4fa9-9ee7-87c204af8917",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f640091d-5559-4b08-8942-e99c934b0bfb",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "161d358b-e74f-499a-b533-5c83a7073d26",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb215ac-3dba-4be4-b095-d3747c15ff0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "85d3f17f-75e8-44a9-ba44-6192d6d6bfa9",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43555e62-6f9a-47fa-91b7-96482a896e7e",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "fd31cf9b-e61c-47c4-8146-6bc2cfbc27fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1931510-fb59-4e1b-853f-0dc1c1db6293",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0dbd1f8d-a742-40d2-9dd5-eb559defaff9",
+    "name": "TC2_13",
+    "commands": [{
+      "id": "69bbb2b1-22ab-458e-a136-812cdc05470d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca509bc3-35cc-47ac-9534-4987c07efdea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a43cb0-0ee5-4793-a4f2-af4541bdd287",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slidesotto:nth-child(1) li:nth-child(2) > a",
+      "targets": [
+        ["css=.slidesotto:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrazione\n\t\t\t\t\t\t\t\tVenditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'RegistrazioneVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1185bd01-181c-41bc-83d5-0c5b1588a0b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab3766f9-4c9a-4edd-ae9e-01c5a8121b99",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=pi", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "03214583694"
+    }, {
+      "id": "602a699c-6138-44a1-9262-021917176e1c",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f582b33-b82d-4314-91ce-3861a2c7f1e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ffa1252-24f4-49b2-b384-37e7e652bfff",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "bigsansu.info@gmail.com"
+    }, {
+      "id": "d77d02a9-e521-4df6-af1b-bdc8a8c3aa63",
+      "comment": "",
+      "command": "click",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8934db83-689f-4c0c-9a1e-93fa364b4264",
+      "comment": "",
+      "command": "type",
+      "target": "name=rs",
+      "targets": [
+        ["name=rs", "name"],
+        ["xpath=(//input[@id='in'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Bigsansu"
+    }, {
+      "id": "a6f4a21b-3a5c-4b55-9b29-b7ac250cb8c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92b1ebe2-13ca-4b9b-924e-d7376fc3249d",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["xpath=(//input[@id='in'])[5]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "via del Centenario, 54"
+    }, {
+      "id": "5100d8d0-86c4-4d7a-af8e-bf16140c35ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=privacy",
+      "targets": [
+        ["name=privacy", "name"],
+        ["css=.c > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[6]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "957ef3fc-fb11-4b51-838c-6078d6460ca0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but:nth-child(1)",
+      "targets": [
+        ["css=.but:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fc110c56-10d0-4c55-8998-1df9b8a056f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8fc89f78-dd04-45ff-b929-c351d46c4e57"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
