@@ -1,0 +1,1050 @@
+{
+  "id": "92372475-37ac-4d7a-8ac3-576e8d0d6a1c",
+  "version": "2.0",
+  "name": "tc6",
+  "url": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+  "tests": [{
+    "id": "871e99a6-08bc-4508-8837-5d7478d5df48",
+    "name": "TC6_1",
+    "commands": [{
+      "id": "e550f331-9f09-492d-aa22-d99f41179de6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "093adc46-ce37-466d-8291-22be5d51dead",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c7f80d-b43a-40e1-9751-5f65193c764c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ff6698-2e13-49d8-b0f5-ce4eed1ac68a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bottoni",
+      "targets": [
+        ["css=.bottoni", "css:finder"],
+        ["xpath=//fieldset[@id='field']/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1325b620-9344-4fca-ab80-097de4b39399",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23ec9367-5d9a-45ec-9c00-017ae0cf51a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3c04e4-3c83-4b1b-bb1c-0aedeeb42d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f88e9e-9622-4880-958e-6f443edbf6ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6205aea5-17b6-407e-bf82-5a1cbe78ffda",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica"
+    }, {
+      "id": "16e36638-6428-44f0-9745-74afe4dc0077",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b7177ff-f8fc-4ed2-97f3-41c021a5591d",
+      "comment": "",
+      "command": "type",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "d64c7400-64ae-4637-b1e7-6750683ccc12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "44d45fe2-975f-486f-bb7b-39ff8e25e3b3",
+    "name": "TC6_2",
+    "commands": [{
+      "id": "cf1c8ab0-6885-4acc-9bcd-a18ee4b5950a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bb79517-27e7-48be-82e7-eb5502913c49",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93476176-b4dd-4db8-9417-f8d5e3f3b64a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec497b0e-4ff3-4a0e-8efc-70b017c6a141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb65af4-00d6-437d-b3c8-11978cfeef95",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a4b9ad-f99d-4d87-ac22-1b206dc01996",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a84d0f66-4332-4c83-b6c5-cef5bb95140a",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3290bd9-f75a-4a4b-8507-7f5e28970397",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica"
+    }, {
+      "id": "e87680da-2695-489f-a28f-a9ff2b558a1d",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f81754-7a8f-42e5-81a3-ce825bfc258e",
+      "comment": "",
+      "command": "type",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "3bc15ea2-62bd-42a3-8823-82a895e8a441",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantita",
+      "targets": [
+        ["name=quantita", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd91daf-20c1-4610-a647-0976d988bf67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "51cad69a-d6e5-466c-9074-7d2ba01ac041",
+    "name": "TC6_3",
+    "commands": [{
+      "id": "cd01d968-82c9-4a9c-a79a-7d76d44c5248",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4357fb0b-e7e0-49c1-8f68-17e1717612d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44119627-9327-42f4-beac-c67b1d648710",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82708cd6-e75f-4b19-8346-1f86c7483e31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54a8dd1f-b51e-4c4f-b241-4cfcb2f820c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4987f0d5-92f0-4753-9a6c-50bb4614c8ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a812bb93-49e3-48bc-aed8-7f305c20ea78",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d27ead8b-4332-489d-831f-7c6b88c0859b",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica"
+    }, {
+      "id": "9bac61b0-512f-4906-9945-2796412393a7",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec020e8-7f38-467b-9607-84675fd341b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantita",
+      "targets": [
+        ["name=quantita", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c5d9cf4-0117-4b0b-8618-fe416bc14833",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantita",
+      "targets": [
+        ["name=quantita", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "ac4b962e-cfa8-42ec-99ce-50cbdcf33bc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fae72ed3-ca5a-4cd1-9edd-674dd1129013",
+    "name": "TC6_4",
+    "commands": [{
+      "id": "9e0934ed-3ed9-48d0-91d3-169282a99238",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74de10dc-fe18-48f1-b34e-2266c4ce4c4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0e10280-c7b0-4a58-a459-a69010dc8eef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cbe7b8e-8bc4-4d35-bf84-97ecaf677f3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a66cee3-7193-40e2-b228-688a3d2b0159",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f45a750-c2e3-4941-9973-d4f98fb67ec8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "351f28bd-88ce-4937-a010-28d6da9fe14b",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b89bd827-e93c-4301-a88b-02bc52a60ecb",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica"
+    }, {
+      "id": "73236830-a9ef-4a4b-a6c0-30fcced1e1a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e860a3b-0812-4b75-91aa-cf2c37bde4d4",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantita",
+      "targets": [
+        ["name=quantita", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8510927-2b98-4246-bb4c-eb587c2624e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantita",
+      "targets": [
+        ["name=quantita", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "eeb787ac-7d53-416e-8f12-0135e1aa3c12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2df985d7-feb5-42d2-a2cb-ce7b9abe5097",
+    "name": "TC6_5",
+    "commands": [{
+      "id": "992f7c09-81b3-4edb-9cc5-9cb929a51492",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3437360d-559e-4219-8864-76341b5aee4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f043582c-6127-4fb0-ba82-4f7f60a0d461",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fe6ff7-0cd1-44ba-8f8c-11d21efa3c4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7810f52-f7a7-42a6-ad3e-a9e4ef9605b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41831e7e-aeb2-45ed-a32c-2bbf8026a3c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f138678d-41b7-4574-9206-bc3b9c970242",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c16fbe-8f15-4fd5-8290-8bcd873dbc8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica. Corposa e aromatica."
+    }, {
+      "id": "ad7bc32e-7c27-4c3f-bec8-6b6a8196e8d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a7013b3-d0e1-4167-a14d-11c9497b0a0e",
+      "comment": "",
+      "command": "type",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "e4dc87d9-d59a-437d-8d14-904b073fa61e",
+      "comment": "",
+      "command": "click",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a02de7e-1dbd-4a79-9dae-1e9803955e48",
+      "comment": "",
+      "command": "type",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "7e2ae965-7063-4c67-a7b6-6bab22f28395",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7076ea71-f4da-46e0-98bb-8849243e152a",
+    "name": "TC6_6",
+    "commands": [{
+      "id": "b083cfff-1aba-43b2-a1ed-b53d3a4881f3",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccc5cdaf-1506-4ebf-98c4-ca2c46ecfc48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c19e96e9-6b86-49bf-bfd8-ca620f08861d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0282bb88-0b23-4dc2-8e09-5cda84d5df9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9098c16-7326-4fca-9ce6-0ddf4a17b8f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf8c12b-4051-45e1-8f0b-7537c3db50e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea25c0df-ee91-4520-9a14-051959b37cf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf52db5a-d9fc-4a3b-a352-07006fd113e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa+e_aromatica--"
+    }, {
+      "id": "23eeeca2-a3a6-49f1-ab7b-721588031bbe",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29787803-1337-4546-88bd-15fbeb645b1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "e59f7f94-f44f-4246-acd6-4edef7fc6203",
+      "comment": "",
+      "command": "click",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f957b4-a5ee-4a96-befd-a9ad09647d05",
+      "comment": "",
+      "command": "type",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "cf4ac266-5e66-4457-b531-f11ac1c991b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cc7f6fb2-3b40-4e33-877c-5b5c294a705b",
+    "name": "TC6_7",
+    "commands": [{
+      "id": "c3476ff3-feb3-4644-bd77-19567190763a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9486f4c-3445-48dc-9003-dfc95ba637f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e65f24f6-3592-4f22-9ae4-f36c4bd9ad11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Venditore",
+      "targets": [
+        ["linkText=Login Venditore", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Venditore')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginVenditore.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Venditore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8d9bde-aab2-4818-8eed-bec2abf69a75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af6f49e9-cd17-42ba-995c-32832ead363b",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) img",
+      "targets": [
+        ["css=td:nth-child(2) img", "css:finder"],
+        ["xpath=//table[@id='tabcar']/tbody/tr/td[2]/a/img", "xpath:idRelative"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7eb2ab-7d60-4477-ad9d-dc61fb624452",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) .but",
+      "targets": [
+        ["css=td:nth-child(7) .but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//table[@id='tabp']/tbody/tr[2]/td[7]/form/input", "xpath:idRelative"],
+        ["xpath=//td[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6242c395-02e0-48b6-90e1-47e9ec9e3a4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2eecef6-9899-44bf-9978-def0e8591100",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=descrizione", "name"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corposa e aromatica"
+    }, {
+      "id": "8539975f-e4aa-460b-81c5-0e8ff549f108",
+      "comment": "",
+      "command": "click",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "974e45b7-5cb4-4399-bbf3-ede9bd9755cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=prezzo",
+      "targets": [
+        ["name=prezzo", "name"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "7d079316-3807-4477-b128-c153b00e9004",
+      "comment": "",
+      "command": "click",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2718699e-883b-4155-a3ee-522622f2361d",
+      "comment": "",
+      "command": "type",
+      "target": "name=qua",
+      "targets": [
+        ["name=qua", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "ac42fd9a-38aa-4fad-8180-60578abd3c79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04e6c1ef-5377-455c-8f76-6639dab45963",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
