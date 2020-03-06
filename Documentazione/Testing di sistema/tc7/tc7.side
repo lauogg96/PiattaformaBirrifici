@@ -1,0 +1,563 @@
+{
+  "id": "90adbb8a-4b87-4ae9-9399-bbc0c024a985",
+  "version": "2.0",
+  "name": "tc7",
+  "url": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+  "tests": [{
+    "id": "07ee9224-5924-472b-9774-f0e05e916865",
+    "name": "TC7_1",
+    "commands": [{
+      "id": "71fd8c56-3a09-4bc4-a313-40f5fb70ee81",
+      "comment": "",
+      "command": "open",
+      "target": "/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "304af73f-2e7f-4596-987e-ae57800bcfc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c4b2673-b079-4d63-b313-4405db1b2a11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6ab0cb12-3c35-42c0-8976-f7d175504a52",
+    "name": "TC7_2",
+    "commands": [{
+      "id": "f7e7f8c8-efb4-41a8-819e-9365942c8b81",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "769e462e-76d4-44b0-b8e5-be053538653a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07227d47-a24b-4106-a247-f9c271f12140",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ec0e0cb-3a0d-4a76-9173-5b6379b8cfa0",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Paulaner Paulaner Paulaner Paulaner Paulaner"
+    }, {
+      "id": "792b52e2-3cde-461b-8bfa-2b8459242400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a202e76f-f461-46a8-8ae7-47c1c426ba6d",
+    "name": "TC7_3",
+    "commands": [{
+      "id": "c5f144a0-612f-4519-a354-812b4ede1913",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfe41ade-e3af-4c2e-88b6-dc12d1af605a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eec6f98d-722c-45a4-9691-594e60621a34",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "948b053e-b6e9-468b-8be9-d41a98e3a6ae",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Paulaner-+;"
+    }, {
+      "id": "66995c27-76c9-4a81-83ec-17d74954d996",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8dfa2c35-bdc4-4650-94f5-6e8448af3000",
+    "name": "TC7_4",
+    "commands": [{
+      "id": "ecead235-384f-4d81-b1ae-33dafbf97f30",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19b23796-d663-42ee-ba4e-bf437adf4c52",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a1ae98b-2e54-4c01-b012-d2faa9db4944",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "131bba74-f1d1-484b-ae6f-2723db2f0039",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Paulaner"
+    }, {
+      "id": "173451fd-316b-42ac-9bc9-2a7390f1ff14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42110097-63a9-43e9-8fef-98de3b363bac",
+    "name": "TC7_5",
+    "commands": [{
+      "id": "12ebbcea-d149-4c63-ad54-93fe816e4098",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2596fbc7-d84e-465c-a443-16b2186a266b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a02285c8-92bd-41b2-bdd8-18fa449e3a4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba73757-c7af-4023-afb9-083b53cd8a6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "14e5d910-1bf3-46b2-95ba-75554c0c47a2",
+    "name": "TC7_6",
+    "commands": [{
+      "id": "9580af07-d36e-4c3b-a613-c681df61e73c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f9baddc-994a-4c0b-916c-5687ac3f2b62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d10d78b4-3717-41da-b5e8-804f511122c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ec23a7-4719-42fc-b708-e62d8d9b76db",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bionda Bionda Bionda Bionda Bionda"
+    }, {
+      "id": "2c18ff4b-92ca-45c9-bb6e-89468b3fc791",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "47a0f912-8cef-4491-9864-280f4181c652",
+    "name": "TC7_7",
+    "commands": [{
+      "id": "cc127a10-7ee3-4358-b0a8-e633604a6f4f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa825bb5-1e56-428f-b59b-576e011f7494",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf23b7f8-d796-4d44-82fe-4dc0940d4f3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4ceca8a-75fc-45c4-a725-a2979c4f7eb0",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bionda+-;"
+    }, {
+      "id": "600b705a-a51f-457a-b143-0a6f10f53613",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "68f3ad04-7fcd-4ee6-9c1e-d680964e73b5",
+    "name": "TC7_8",
+    "commands": [{
+      "id": "1b39c5f4-df58-45e8-97f5-b106355e9588",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "377a7cd6-d666-4c1e-aa32-b903760f8f00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75984ded-8477-4582-be99-00301dbda11f",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60dad67b-2772-487e-a29d-2480703de1c9",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bionda"
+    }, {
+      "id": "d3bab202-3108-4980-8acd-f322e17c94b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "58618327-6de8-461c-ab98-808e00192656",
+    "name": "TC7_9",
+    "commands": [{
+      "id": "aa5248e6-e0f3-41fd-ae22-b7cc2a8ef12c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bc12e66-612a-45be-b104-a1c0c694f6af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0afe1980-e67a-4e20-ae3c-1877b1b04ab5",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7bb0bb3-e420-4327-bb60-d2715a6fb9be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "609f1905-44a7-4df6-948a-c465d0673e1e",
+    "name": "TC7_10",
+    "commands": [{
+      "id": "da3f7511-ab3e-4d2a-8f0e-a4582c86109a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c76eeedb-0f00-4bf7-aad7-e9fda2ea703e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae9997f7-c9ab-40ea-892a-ff702f887040",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f046adcd-39b2-4f8b-b455-b629e882558a",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Birrificio_+dei-"
+    }, {
+      "id": "a9fc2aa6-943a-4358-b455-c951f229bcb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "328433e4-652c-4661-a273-c48bc0e1c236",
+    "name": "TC7_11",
+    "commands": [{
+      "id": "e467bf3f-79d9-466d-a6bc-5732d6b05ae9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e224ad3-fd95-406b-8322-b2bc3a6e878e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b1dd36d-9c04-4520-8f59-066f410b376c",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a28f860-028f-4390-bf8d-50d49b20c73d",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Birrificio dei bardi"
+    }, {
+      "id": "dd58c1db-f136-4121-b554-fe716347a5fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "452e02c3-0fb1-4535-9066-6b953f36e3c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["07ee9224-5924-472b-9774-f0e05e916865"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
