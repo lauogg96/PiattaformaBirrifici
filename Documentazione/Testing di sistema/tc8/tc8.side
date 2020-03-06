@@ -1,0 +1,511 @@
+{
+  "id": "80864a87-0679-4970-99b0-bd8f2624ec85",
+  "version": "2.0",
+  "name": "tc8",
+  "url": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+  "tests": [{
+    "id": "1de8d250-de80-40fd-9442-84577401ae1c",
+    "name": "TC8_1",
+    "commands": [{
+      "id": "5c057816-3f32-42a8-bc4a-f746f3b084ef",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faf3ccd6-427f-43d4-b8fc-acbf79c58b5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8599444e-ef48-492f-a556-49e84333dacd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Acquirente",
+      "targets": [
+        ["linkText=Login Acquirente", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Acquirente')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginAcquirente.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Acquirente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e25924f2-d379-41a7-a5c5-cce988d0b31b",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20fb0a84-dba0-4614-8f7f-89fa624d76ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "atlandi@gmail.com"
+    }, {
+      "id": "cb837f9f-608a-4738-ba29-a4357ec193a4",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97f95fa-0157-4859-9ef4-7f2b0f405a49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f305fb2-7b9f-404c-ae66-0c5e33eff4b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38ddea15-6c5a-4d51-b899-c59e1421e2c2",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Birra"
+    }, {
+      "id": "09462b6a-dfd9-4344-9336-95dfb365754e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6656865f-ecbf-4736-9580-3ede819f16a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=td .but",
+      "targets": [
+        ["css=td .but", "css:finder"],
+        ["xpath=//button[@onclick=\"document.getElementById('Birra').style.display='block'\"]", "xpath:attributes"],
+        ["xpath=//table[@id='tabcar']/tbody/tr[2]/td[7]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dettagli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69cf8846-98e2-4f43-b985-d36598556167",
+      "comment": "",
+      "command": "click",
+      "target": "css=li .but",
+      "targets": [
+        ["css=li .but", "css:finder"],
+        ["xpath=//input[@value='Aggiungi al carrello']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[10]/div/input", "xpath:idRelative"],
+        ["xpath=//li[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aa766034-1566-4bfc-8cfa-4c083963f785",
+    "name": "TC8_2",
+    "commands": [{
+      "id": "272ffe33-d5a7-4b82-af9a-96e9914b8caf",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0144a14-f5c5-42c0-941e-c611b813d3db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd07a1ab-8b78-4f9a-93a4-f6457534ef42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Acquirente",
+      "targets": [
+        ["linkText=Login Acquirente", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Acquirente')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginAcquirente.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Acquirente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "818cb266-0991-4bec-8f43-e00908c486d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d65bfa73-e05d-4933-820d-ec650d030d1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "49cdd7d1-4784-4e96-85b9-9befce49f66c",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "atlandi@gmail.com"
+    }, {
+      "id": "a9db85fd-49c6-44be-9b3d-128f13550e6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b81ba56-8440-429d-9cd3-5c227070223e",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd8a82e-72c5-4584-9fb3-ca532a62a366",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "birra"
+    }, {
+      "id": "ceaab634-93ef-43e4-bb8e-f33c8474f2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "786a1b65-02f4-413e-b64b-45562a27ab99",
+      "comment": "",
+      "command": "click",
+      "target": "css=td .but",
+      "targets": [
+        ["css=td .but", "css:finder"],
+        ["xpath=//button[@onclick=\"document.getElementById('Birra').style.display='block'\"]", "xpath:attributes"],
+        ["xpath=//table[@id='tabcar']/tbody/tr[2]/td[7]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dettagli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b38a14-dfcd-47d1-be9b-9230d0f11f03",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=quantita", "name"],
+        ["css=#in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30c345ba-080f-4ffa-bf89-0b7e898e1768",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=quantita", "name"],
+        ["css=#in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "eebebc1d-2967-4cba-8327-a06f542e4354",
+      "comment": "",
+      "command": "click",
+      "target": "css=li .but",
+      "targets": [
+        ["css=li .but", "css:finder"],
+        ["xpath=//input[@value='Aggiungi al carrello']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[10]/div/input", "xpath:idRelative"],
+        ["xpath=//li[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85a9af64-2d8d-4138-ba3a-44f0f961a3d2",
+    "name": "TC8_3",
+    "commands": [{
+      "id": "464b94a3-1f89-4058-96f3-fc90b8a9bb86",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da472518-1079-4363-a636-6ffddb8a1c11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b4e3eab-9676-4980-bd70-05f41f4e7f02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login Acquirente",
+      "targets": [
+        ["linkText=Login Acquirente", "linkText"],
+        ["css=.slidesotto:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login Acquirente')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LoginAcquirente.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login Acquirente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bbdfa53-11c8-44e2-b70f-e5b4bb8d97b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a24c145e-c6ca-4369-a85d-a32227d90206",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p > #in", "css:finder"],
+        ["xpath=(//input[@id='in'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "1d7d4216-9f97-420c-b6f4-3c95a0cc0e2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=emailAc", "name"],
+        ["css=b > #in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/p[2]/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "atlandi@gmail.com"
+    }, {
+      "id": "2b22c265-b4a4-4076-9b33-9627dca441de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.but",
+      "targets": [
+        ["css=.but", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='field']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f915f41-98f5-469d-89aa-d4dc7aad6f13",
+      "comment": "",
+      "command": "click",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3ee034-b542-4c03-9a0f-f9c3192d3f01",
+      "comment": "",
+      "command": "type",
+      "target": "css=b > #cerca",
+      "targets": [
+        ["css=b > #cerca", "css:finder"],
+        ["xpath=//input[@id='cerca']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "birra"
+    }, {
+      "id": "f3181492-4c6b-428f-82bd-17e56232fb51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.butCerca",
+      "targets": [
+        ["css=.butCerca", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='cerca']/b/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e160fa6f-ee95-4a46-8a69-8842e4b0963f",
+      "comment": "",
+      "command": "click",
+      "target": "css=td .but",
+      "targets": [
+        ["css=td .but", "css:finder"],
+        ["xpath=//button[@onclick=\"document.getElementById('Birra').style.display='block'\"]", "xpath:attributes"],
+        ["xpath=//table[@id='tabcar']/tbody/tr[2]/td[7]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dettagli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac411b5-c04c-42a1-b55d-7d36b64552a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=quantita", "name"],
+        ["css=#in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b4c356-43f9-4a07-a802-05abcd2b38b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=in",
+      "targets": [
+        ["id=in", "id"],
+        ["name=quantita", "name"],
+        ["css=#in", "css:finder"],
+        ["xpath=//input[@id='in']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "7a238048-ab74-4c25-a1bc-ad903f5344e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li .but",
+      "targets": [
+        ["css=li .but", "css:finder"],
+        ["xpath=//input[@value='Aggiungi al carrello']", "xpath:attributes"],
+        ["xpath=//div[@id='Birra']/nav/ul/li[10]/div/input", "xpath:idRelative"],
+        ["xpath=//li[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "586dc184-8890-424f-88ed-c88870a72939",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1de8d250-de80-40fd-9442-84577401ae1c"]
+  }],
+  "urls": [],
+  "plugins": []
+}
