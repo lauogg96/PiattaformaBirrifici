@@ -38,7 +38,7 @@ public class TC710Test {
   }
   @Test
   public void tC710() {
-    driver.get("http://localhost:8080/Piattaforma_Birrifici/Home.jsp");
+    driver.get("http://localhost:8081/Piattaforma_Birrifici/Home.jsp");
     driver.manage().window().setSize(new Dimension(1382, 744));
     driver.findElement(By.cssSelector("b > #cerca")).click();
     driver.findElement(By.cssSelector("b > #cerca")).sendKeys("Birrificio_+dei-");
