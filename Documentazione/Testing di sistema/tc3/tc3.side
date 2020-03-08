@@ -2,7 +2,7 @@
   "id": "5b5c9bcb-2767-46e7-bc34-9bae87e15690",
   "version": "2.0",
   "name": "tc3",
-  "url": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+  "url": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
   "tests": [{
     "id": "b19e8ce4-c9b5-4986-a3d8-c4dcf16ee266",
     "name": "TC3_1",
@@ -10,7 +10,7 @@
       "id": "46d73fc4-e142-4fa2-95ec-9dd49d5d843f",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -107,7 +107,7 @@
       "id": "e61a6042-9c46-41e8-989b-0ca3757e9525",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -205,7 +205,7 @@
       "id": "15751895-0a5c-44cd-92dd-bc07d77917e1",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -303,7 +303,7 @@
       "id": "23e78306-41c9-4b52-bd86-6682b09dd8e2",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -386,7 +386,7 @@
       "id": "3c2303dd-570e-4218-85e2-b58eaca403b0",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -484,7 +484,7 @@
       "id": "c7e3f2fa-1bd6-4935-8fce-23a5304fbed0",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -582,7 +582,7 @@
       "id": "7762c5ea-a59e-410a-ab4d-95de2ced4477",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8080/Piattaforma_Birrifici/Home.jsp",
+      "target": "http://localhost:8081/Piattaforma_Birrifici/Home.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -682,6 +682,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["http://localhost:8080/"],
+  "urls": ["http://localhost:8081/"],
   "plugins": []
 }
