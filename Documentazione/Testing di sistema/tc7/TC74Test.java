@@ -38,7 +38,7 @@ public class TC74Test {
   }
   @Test
   public void tC74() {
-    driver.get("http://localhost:8080/Piattaforma_Birrifici/Home.jsp");
+    driver.get("http://localhost:8081/Piattaforma_Birrifici/Home.jsp");
     driver.manage().window().setSize(new Dimension(1382, 744));
     driver.findElement(By.cssSelector("b > #cerca")).click();
     driver.findElement(By.cssSelector("b > #cerca")).sendKeys("Paulaner");
