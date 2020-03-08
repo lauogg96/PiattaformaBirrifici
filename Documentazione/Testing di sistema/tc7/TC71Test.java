@@ -38,7 +38,7 @@ public class TC71Test {
   }
   @Test
   public void tC71() {
-    driver.get("http://localhost:8080/Piattaforma_Birrifici/Home.jsp/Piattaforma_Birrifici/Home.jsp");
+    driver.get("http://localhost:8081/Piattaforma_Birrifici/Home.jsp/Piattaforma_Birrifici/Home.jsp");
     driver.manage().window().setSize(new Dimension(1382, 744));
     driver.findElement(By.cssSelector(".butCerca")).click();
   }
