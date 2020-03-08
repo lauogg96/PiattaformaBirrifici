@@ -38,7 +38,7 @@ public class TC32Test {
   }
   @Test
   public void tC32() {
-    driver.get("http://localhost:8080/Piattaforma_Birrifici/Home.jsp");
+    driver.get("http://localhost:8081/Piattaforma_Birrifici/Home.jsp");
     driver.findElement(By.linkText("Login Acquirente")).click();
     driver.findElement(By.id("in")).click();
     driver.findElement(By.id("in")).sendKeys("atlandigmail.it");
