@@ -38,7 +38,7 @@ public class TC27Test {
   }
   @Test
   public void tC27() {
-    driver.get("http://localhost:8080/Piattaforma_Birrifici/Home.jsp");
+    driver.get("http://localhost:8081/Piattaforma_Birrifici/Home.jsp");
     driver.manage().window().setSize(new Dimension(1382, 744));
     driver.findElement(By.cssSelector(".slidesotto:nth-child(1) li:nth-child(2) > a")).click();
     driver.findElement(By.name("rs")).click();
