@@ -36,7 +36,7 @@ $(window).load(function() {
 						<font size="15"> Registrazione Acquirente<br></font>
 					</p>
 					<p>
-						<br>E-Mail:<input id="in" type="email" name="e" placeholder="esempio@esempio.it" required="required" > *<font id="disp" size="3px"></font><br>
+						<br>E-Mail:<input id="in" type="email" name="emai" placeholder="esempio@esempio.it" required="required" > *<font id="disp" size="3px"></font><br>
 						<br>Password:<input id="in" type="password" name="p" placeholder="password" required="required" > *<br>
 						<br>Nome:<input id="in" type="text" name="n" required="required">*<br>
 						<br>Cognome:<input id="in" type="text" name="c" required="required">*<br>
