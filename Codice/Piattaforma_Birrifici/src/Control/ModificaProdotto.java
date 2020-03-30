@@ -20,17 +20,10 @@ import Model.ProdottoDAO;
 public class ModificaProdotto extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ModificaProdotto() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession htp=request.getSession(); 
 		String pi = (String) htp.getAttribute("pi");
@@ -38,24 +31,48 @@ public class ModificaProdotto extends HttpServlet {
 		String nome=request.getParameter("nome");
 		String descrizione=request.getParameter("descrizione");
 		double prezzo=Double.parseDouble(request.getParameter("prezzo"));
-		int quantita=Integer.parseInt(request.getParameter("quantita"));
-		try {
+		int qua=Integer.parseInt(request.getParameter("qua"));
+		int cont=0;
+		String result="false";
+	try {	
+		if(qua==0) {
+			request.setAttribute("failModifica", "quantita");
+			response.getWriter().write(result);
+			RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
+			view.forward(request, response);
+			cont++;
+		}else
+		
+		if(!descrizione.matches("^[\\sa-zA-Z ]*$")||descrizione.length()>100) {
+			request.setAttribute("failModifica", "descrizione");
+			response.getWriter().write(result);
+			RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
+			view.forward(request, response);
+			cont++;
+		}else
+		
+		if(prezzo==0) {
+			request.setAttribute("failModifica", "prezzo");
+			response.getWriter().write(result);
+			RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
+			view.forward(request, response);
+			cont++;
+		}
+	
+	
 			ProdottoDAO pr= new ProdottoDAO();
-			pr.modificaProdotto(nome, descrizione, prezzo, quantita);
+			pr.modificaProdotto(nome, descrizione, prezzo, qua);
+			result="true";
+			response.getWriter().write(result);
 			RequestDispatcher view =  request.getRequestDispatcher("ListaProdottiVend.jsp");
 			view.forward(request, response);
 		}catch(Exception e){
 			e.printStackTrace();
+			response.getWriter().write(result);
 		}
 	}
 	
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
+
 
 }
