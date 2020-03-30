@@ -17,13 +17,19 @@ import Model.AcquirenteDAO;
 @WebServlet("/LoginAcquirente")
 public class LoginAcquirente extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+	
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 	{
 		HttpSession htp=request.getSession(); 
 		String emailAc = request.getParameter("emailAc");
 		String password = request.getParameter("password");
 		int cont=0;
+		String result ="false";
 		try {
 			AcquirenteDAO ac = new AcquirenteDAO();
 			List<Acquirente> lista = ac.ListAcquirenti();
@@ -32,6 +38,8 @@ public class LoginAcquirente extends HttpServlet {
 				if((lista.get(i).getEmail().equals(emailAc))&&(lista.get(i).getPassword().equals(password)))
 				{
 					htp.setAttribute("email",emailAc);
+					result="true";
+					response.getWriter().write(result);
 					RequestDispatcher view = request.getRequestDispatcher("LoginHome.jsp");
 					view.forward(request, response);
 				
@@ -44,17 +52,23 @@ public class LoginAcquirente extends HttpServlet {
 				if(lista1.get(i).getEmail().equals(emailAc)) {
 					String failLogin="noPass";
 					request.setAttribute("failLogin", failLogin);
+				//	result="true";
+					response.getWriter().write(result);
 					RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
 					view.forward(request, response);
 			}				
 				}
 				String failLogin="noEmail";
 				request.setAttribute("failLogin", failLogin);
+			//	result="true";
+				response.getWriter().write(result);
 				RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
 				view.forward(request, response);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
+			//result="true";
+			response.getWriter().write(result);
 		}
 		
 	}
