@@ -7,38 +7,10 @@
     
     
     <wb-module deploy-name="Piattaforma_Birrifici-0.0.1-SNAPSHOT">
-                        
-        
-        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                                        
-        
-        
-        
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-                                        
-        
-        
-        
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-                                        
-        
-        
-        
         <wb-resource deploy-path="/" source-path="/src/Control"/>
-                                        
-        
-        
-        
         <wb-resource deploy-path="/" source-path="/src/Model"/>
-                                        
-        
-        
-        
-        <wb-resource deploy-path="/" source-path="/src/View"/>
-                                        
-        
-        
-        
         <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF/Css"/>
                                                                 
         
