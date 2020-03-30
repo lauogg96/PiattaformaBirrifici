@@ -16,14 +16,17 @@ import Model.VenditoreDAO;
 
 @WebServlet("/LoginVenditore")
 public class LoginVenditore extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-
-	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);}
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 	{
 		HttpSession htp=request.getSession(); 
 		String pi = request.getParameter("pi");
 		String password = request.getParameter("password");
 		int cont=0;
+		String result ="false";
 		try {
 			VenditoreDAO ac = new VenditoreDAO();
 			List<Venditore> lista = ac.ListVenditori();
@@ -32,6 +35,9 @@ public class LoginVenditore extends HttpServlet {
 				if((lista.get(i).getPi().equals(pi))&&(lista.get(i).getPassword().equals(password)))
 				{
 					htp.setAttribute("pi",pi);
+					request.setAttribute("risposta", true);
+					result="true";
+					response.getWriter().write(result);
 					RequestDispatcher view = request.getRequestDispatcher("AccountVend.jsp");
 					view.forward(request, response);
 				
@@ -43,20 +49,25 @@ public class LoginVenditore extends HttpServlet {
 				for(int i=0; i<lista1.size(); i++,cont ++)
 				{
 					if(lista1.get(i).getPi().equals(pi)) {
-						String failVend="noPass";
-						request.setAttribute("failVend",failVend);
+						request.setAttribute("failVend","noPass");
+						request.setAttribute("risposta", true);
+						response.getWriter().write(result);
 						RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
 						view.forward(request, response);
 					}
 				}
-			String failVend="noPi";
-			request.setAttribute("failVend",failVend);
+				
+			request.setAttribute("failVend","noPi");
+			request.setAttribute("risposta", true);
+			response.getWriter().write(result);
 			RequestDispatcher view = request.getRequestDispatcher("errore.jsp");
 			view.forward(request, response);
 		}} catch (Exception e) {
 			e.printStackTrace();
+			response.getWriter().write(result);
 		}
 		
+
 	}
 	}
 
