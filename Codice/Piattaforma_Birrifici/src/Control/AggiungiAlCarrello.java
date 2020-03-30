@@ -19,27 +19,14 @@ import Model.*;
 @WebServlet("/AggiungiAlCarrello")
 public class AggiungiAlCarrello extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public AggiungiAlCarrello() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession htp=request.getSession(); 
 		String email=(String)htp.getAttribute("email");
 		htp.setAttribute("email",email);
@@ -47,12 +34,15 @@ public class AggiungiAlCarrello extends HttpServlet {
 		String prodotto=request.getParameter("prodotto");
 		int quantita=Integer.parseInt(request.getParameter("quantita"));
 		double prezzo=Double.parseDouble(request.getParameter("prezzo"));
+		String result="false";
+		try {
 		if(quantita<=0) {
 			request.setAttribute("quantita", quantita);
+			response.getWriter().write(result);
 			RequestDispatcher view =  request.getRequestDispatcher("errore.jsp");
 			view.forward(request, response);
 		}
-		try {
+	
 			CarrelloDAO c=new CarrelloDAO();
 			ArrayList<Carrello> car= c.dammiCarrello();
 			ProdottoDAO p=new ProdottoDAO();
@@ -63,11 +53,14 @@ public class AggiungiAlCarrello extends HttpServlet {
 				if(quantita<=prod.get(0).getQuantita()) {
 				Carrello ca=new Carrello(acquirente,prodotto,quantita,tot(quantita,prezzo));
 				c.inserisciCarrello(ca);
+				result="true";
+				response.getWriter().write(result);
 				RequestDispatcher view =  request.getRequestDispatcher("LoginHome.jsp");
 				view.forward(request, response);
 			}
 				else {
 					request.setAttribute("quantita", quantita);
+					response.getWriter().write(result);
 					RequestDispatcher view =  request.getRequestDispatcher("errore.jsp");
 					view.forward(request, response);
 				}
@@ -80,11 +73,14 @@ public class AggiungiAlCarrello extends HttpServlet {
 						
 						if(quantitaTot<=prod.get(0).getQuantita()&&quantita>0) {
 						c.aggiornaCarrello(quantitaTot, tot(quantitaTot,prezzo), prodotto, acquirente);
+						result="true";
+						response.getWriter().write(result);
 						RequestDispatcher view =  request.getRequestDispatcher("LoginHome.jsp");
 						view.forward(request, response);
 					}
 						else {
 							request.setAttribute("quantita", quantitaTot);
+							response.getWriter().write(result);
 							RequestDispatcher view =  request.getRequestDispatcher("errore.jsp");
 							view.forward(request, response);
 						}
@@ -96,17 +92,21 @@ public class AggiungiAlCarrello extends HttpServlet {
 						if(quantita<=prod.get(0).getQuantita()&&quantita>0) {
 						Carrello ca=new Carrello(acquirente,prodotto,quantita,tot(quantita,prezzo));
 						c.inserisciCarrello(ca);
+						result="true";
+						response.getWriter().write(result);
 						RequestDispatcher view =  request.getRequestDispatcher("LoginHome.jsp");
 						view.forward(request, response);
 						}
 					else {
 						request.setAttribute("quantita",quantita);
+						response.getWriter().write(result);
 						RequestDispatcher view =  request.getRequestDispatcher("errore.jsp");
 						view.forward(request, response);
 					}
 			}
 				}}catch(Exception e) {
 			e.printStackTrace();
+			response.getWriter().write(result);
 		}
 	}
 	private double tot(int x, double y)
