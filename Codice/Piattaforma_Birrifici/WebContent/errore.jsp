@@ -20,6 +20,7 @@
 			String boh =(String) request.getAttribute("pass");
 			String qua=request.getParameter("quantita");
 			String pii=(String)request.getAttribute("pii");
+			String failAggiungi=(String)request.getAttribute("failAggiungi");
 			String nome=(String)request.getAttribute("nome");
 			String cerca=(String)request.getAttribute("cerca");
 			String noProd=(String)request.getAttribute("noProd");
@@ -29,6 +30,45 @@
 			String failVend=(String)request.getAttribute("failVend");
 			String failReg=(String)request.getAttribute("failReg");
 			String failRegVend=(String)request.getAttribute("failRegVend");
+			String failModifica=(String)request.getAttribute("failModifica");
+			String failCerca=(String)request.getAttribute("failCerca");
+			
+			if(failModifica!=null){
+				if(failModifica.equals("quantita")){%>
+					La quantità inserita non è valida
+				<%}
+				if(failModifica.equals("descrizione")){%>
+					La descrizione inserita non è valida
+				<%}
+				if(failModifica.equals("prezzo")){%>
+					Il prezzo inserito non è valido
+				<%}
+			}
+			
+			if(failCerca!=null){%>
+				La ricerca non può essere effettuata
+			<%}
+			
+			if(failAggiungi!=null){
+				if(failAggiungi.equals("nome")){%>
+					Il nome inserito non è valido!
+				<%}
+				else if(failAggiungi.equals("colore")){%>
+					Il colore non è valido
+				<%}
+				else if(failAggiungi.equals("gradazione")){%>
+				La gradazione non è valida
+				<%}
+				else if(failAggiungi.equals("descrizione")){%>
+				La descrizione non è valida
+				<%}
+				else if(failAggiungi.equals("quantita")){%>
+				La quantita non è valida
+				<%}
+				else if(failAggiungi.equals("prezzo")){%>
+				Il prezzo non è valido
+				<%}
+			}
 			
 			if(failRegVend!=null){
 				if(failRegVend.equals("piInUso")){%>
@@ -43,7 +83,13 @@
 				else if(failRegVend.equals("errIndirizzo")){%>
 				L'indirizzo non rispetta il formato!
 				<%}
-				}
+				else if(failRegVend.equals("passForm")){%>
+				La password non rispetta il formato
+				<%}
+				else if(failRegVend.equals("errMail")){%>
+				La mail non rispetta il formato
+				<%}
+			}
 			
 			if(failReg!=null){
 				if(failReg.equals("lungo")){%>
@@ -61,6 +107,17 @@
 				else if(failReg.equals("errTel")){%>
 				Il numero di telefono inserito non rispetta il formato
 			<%}
+				else if(failReg.equals("errMail")){%>
+				La mail non rispetta il formato
+			<%}
+				else if(failReg.equals("email")){%>
+			La mail è già in uso!
+		<%}
+			
+				
+		else if(failReg.equals("passForm")){%>
+			La password non rispetta il formato
+		<%}
 			}
 			
 			if(failVend!=null){
@@ -128,19 +185,15 @@
 			
 			String corta="corta";
 			String lunga ="lunga";
-			if (email!=null)
-			{
-				%>Mi dispiace <%=email %> gia in uso
-			<%
-			}
-			else if (boh!=null)
+			 if (boh!=null)
 				{
 					if(boh.equals(corta)){%>
 				Mi dispiace password corta
 				<%}
 					if(boh.equals(lunga)){%>
 				Mi dispiace password troppo lunga
-			<% } }
+			<% }
+					} 
 			%>
 	</div>
 </body>
