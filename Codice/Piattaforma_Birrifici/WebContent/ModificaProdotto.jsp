@@ -26,7 +26,7 @@
 				<p>
 					<b>Descrizione:<input id="in" type="text" name="descrizione" placeholder="<%=p.get(i).getDescrizione()%>" required="required"><br>
 					<br> Prezzo:<input id="in" type="number" name="prezzo" placeholder="<%=p.get(i).getPrezzo()%>" required="required"><br>
-					<br> Quantit&agrave;:</b><input id="in" type="number" name="quantita" placeholder="<%=p.get(i).getQuantita()%>" required="required"><br>
+					<br> Quantit&agrave;:</b><input id="in" type="number" name="qua" placeholder="<%=p.get(i).getQuantita()%>" required="required"><br>
 				</p>
 				<%request.setAttribute("nome", nome);%>
 				<div class="bottoni">
